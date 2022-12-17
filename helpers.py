@@ -6,8 +6,10 @@ import os
 
 headers={'user-agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'}
 bhavcopy_names = []
+latest_datetime = None
 
 def getSecuritiesFile():
+    print('Getting securities file...')
         
     # get securities csv
     url = 'https://www.nseindia.com/market-data/securities-available-for-trading'
@@ -21,6 +23,7 @@ def getSecuritiesFile():
             break
 
 def getBhavcopyFiles():
+    print('Getting bhavcopy files...')
     # get latest bhavcopy
     #  https://archives.nseindia.com/content/historical/EQUITIES/' + getFullyear + '/' + getMMM + '/cm' + DDMMMYYYY + 'bhav.csv.zip
     date_datetime = datetime.datetime.today()
@@ -73,9 +76,12 @@ def getBhavcopyFiles():
         last_datetime = date_datetime
 
 def clearSecuritiesFile():
-    os.remove('securities.csv')
+    print('Clearing securities file...')
+    if os.path.exists('securities.csv'):
+        os.remove('securities.csv')
 
 def clearBhavcopyFiles():
+    print('Clearing bhavcopy files...')
     for file in bhavcopy_names:
         os.remove(file)
     bhavcopy_names.clear()
