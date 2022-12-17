@@ -7,6 +7,7 @@ import os
 headers={'user-agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'}
 bhavcopy_names = []
 latest_datetime = None
+last_datetime = None
 
 def getSecuritiesFile():
     print('Getting securities file...')
