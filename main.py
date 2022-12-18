@@ -63,7 +63,7 @@ def get_data():
         latest_str = latest_datetime.strftime('%d-%b-%Y').upper()
     except:
         latest_str = '16-DEC-2022'
-    c.execute('SELECT securities.symbol as SYMBOL, SUM((close-open)/open) as PROFIT, MAX(name_of_company) as "NAME OF COMPANY" FROM securities INNER JOIN bhavcopy ON securities.symbol=bhavcopy.symbol WHERE timestamp = %s GROUP BY securities.symbol ORDER BY PROFIT DESC LIMIT 25', (latest_str, ))
+    c.execute("""SELECT securities.symbol as SYMBOL, ((close-open)/open) as PROFIT, name_of_company as "NAME OF COMPANY" FROM securities INNER JOIN bhavcopy ON securities.symbol=bhavcopy.symbol WHERE timestamp = %s AND bhavcopy.series = 'EQ' ORDER BY PROFIT DESC LIMIT 25""", (latest_str, ))
     with open('result1.csv', 'w') as f:
         f.write('SYMBOL,PROFIT,NAME OF COMPANY\n')
         for row in c.fetchall():
@@ -74,7 +74,7 @@ def get_data():
         f.write('SYMBOL,PROFIT,NAME OF COMPANY,TIMESTAMP\n')
     for name in bhavcopy_names:
         date = name[2:4] + '-' + name[4:7] + '-' + name[7:11]
-        c.execute('SELECT securities.symbol as SYMBOL, SUM((close-open)/open) as PROFIT, MAX(name_of_company) as "NAME OF COMPANY", MAX(timestamp) as TIMESTAMP FROM securities INNER JOIN bhavcopy ON securities.symbol=bhavcopy.symbol WHERE timestamp = %s GROUP BY securities.symbol ORDER BY PROFIT DESC LIMIT 25', (date, ))
+        c.execute("""SELECT securities.symbol as SYMBOL, ((close-open)/open) as PROFIT, name_of_company as "NAME OF COMPANY", timestamp as TIMESTAMP FROM securities INNER JOIN bhavcopy ON securities.symbol=bhavcopy.symbol WHERE timestamp = %s AND bhavcopy.series = 'EQ' ORDER BY PROFIT DESC LIMIT 25""", (date, ))
         with open('result2.csv', 'a') as f:
             for row in c.fetchall():
                 f.write(','.join(map(str, row)) + '\n')
@@ -86,7 +86,7 @@ def get_data():
     except:
         latest_str = '16-DEC-2022'
         last_str = '04-NOV-2022'
-    c.execute('SELECT latest.symbol AS SYMBOL, SUM((latest.close-lastd.open)/lastd.open) AS PROFIT, MAX(name_of_company) AS "NAME OF COMPANY" FROM (SELECT symbol, open, close, timestamp FROM bhavcopy) AS latest JOIN (SELECT symbol, open, close, timestamp FROM bhavcopy) AS lastd ON latest.symbol = lastd.symbol INNER JOIN securities ON securities.symbol = latest.symbol WHERE latest.timestamp = %s AND lastd.timestamp = %s GROUP BY latest.symbol ORDER BY PROFIT DESC LIMIT 25', (latest_str, last_str))
+    c.execute("""SELECT latest.symbol AS SYMBOL, ((latest.close-lastd.open)/lastd.open) AS PROFIT, name_of_company AS "NAME OF COMPANY" FROM (SELECT symbol, open, close, timestamp, series FROM bhavcopy) AS latest JOIN (SELECT symbol, open, close, timestamp, series FROM bhavcopy) AS lastd ON latest.symbol = lastd.symbol INNER JOIN securities ON securities.symbol = latest.symbol WHERE latest.timestamp = %s AND lastd.timestamp = %s AND latest.series = 'EQ' AND lastd.series = 'EQ' ORDER BY PROFIT DESC LIMIT 25""", (latest_str, last_str))
     with open('result3.csv', 'w') as f:
         f.write('SYMBOL,PROFIT,NAME OF COMPANY\n')
         for row in c.fetchall():
@@ -94,10 +94,10 @@ def get_data():
     
 
 def main():
-    add_data()
+    # add_data()
     get_data()
     conn.close()
-    clearFilesAll()
+    # clearFilesAll()
 
 if __name__ == '__main__':
     main()
