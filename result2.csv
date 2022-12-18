@@ -82,7 +82,7 @@ CENTRALBK,0.16642113,Central Bank of India,13-DEC-2022
 IOB,0.12591244,Indian Overseas Bank,13-DEC-2022
 YESBANK,0.11395352,Yes Bank Limited,13-DEC-2022
 SAKUMA,0.11356462,Sakuma Exports Limited,13-DEC-2022
-HUDCO,0.10431296,Housing & Urban Development Corporation Limited,13-DEC-2022
+HUDCO,0.102309845,Housing & Urban Development Corporation Limited,13-DEC-2022
 ARROWGREEN,0.09979802,Arrow Greentech Limited,13-DEC-2022
 SEAMECLTD,0.09823232,Seamec Limited,13-DEC-2022
 VSSL,0.09687836,Vardhman Special Steels Limited,13-DEC-2022
@@ -137,7 +137,6 @@ JYOTISTRUC,0.085106365,Jyoti Structures Limited,09-DEC-2022
 KAMATHOTEL,0.08154513,Kamat Hotels (I) Limited,09-DEC-2022
 KOTHARIPRO,0.07884309,Kothari Products Limited,09-DEC-2022
 TRU,0.07032972,TruCap Finance Limited,09-DEC-2022
-RHFL,0.06875,Reliance Home Finance Limited,09-DEC-2022
 JAYNECOIND,0.06844111,Jayaswal Neco Industries Limited,09-DEC-2022
 CROWN,0.06628575,Crown Lifters Limited,09-DEC-2022
 HEADSUP,0.06225675,Heads UP Ventures Limited,09-DEC-2022
@@ -147,6 +146,7 @@ DEVIT,0.055371877,Dev Information Technology Limited,09-DEC-2022
 ACEINTEG,0.053903375,Ace Integrated Solutions Limited,09-DEC-2022
 SANGINITA,0.050343268,Sanginita Chemicals Limited,09-DEC-2022
 TRACXN,0.05026926,Tracxn Technologies Limited,09-DEC-2022
+RHFL,0.05022397,Reliance Home Finance Limited,09-DEC-2022
 MTNL,0.04958673,Mahanagar Telephone Nigam Limited,09-DEC-2022
 EQUIPPP,0.049516886,Equippp Social Impact Technologies Limited,09-DEC-2022
 SIMPLEXINF,0.14412957,Simplex Infrastructures Limited,08-DEC-2022
@@ -184,6 +184,7 @@ RAJTV,0.16923076,Raj Television Network Limited,07-DEC-2022
 NEXTMEDIA,0.1607143,Next Mediaworks Limited,07-DEC-2022
 SITINET,0.15625,Siti Networks Limited,07-DEC-2022
 AGRITECH,0.15537019,Agri-Tech (India) Limited,07-DEC-2022
+IBULHSGFIN,0.14952688,Indiabulls Housing Finance Limited,07-DEC-2022
 OPTIEMUS,0.14847833,Optiemus Infracom Limited,07-DEC-2022
 WEALTH,0.14210437,Wealth First Portfolio Managers Limited,07-DEC-2022
 MITTAL,0.1385281,Mittal Life Style Limited,07-DEC-2022
@@ -196,7 +197,6 @@ PPAP,0.110176966,PPAP Automotive Limited,07-DEC-2022
 GAL,0.109090894,Gyscoal Alloys Limited,07-DEC-2022
 FACT,0.10060969,Fertilizers and Chemicals Travancore Limited,07-DEC-2022
 HIKAL,0.09632048,Hikal Limited,07-DEC-2022
-IBULHSGFIN,0.090792455,Indiabulls Housing Finance Limited,07-DEC-2022
 GAEL,0.083883315,Gujarat Ambuja Exports Limited,07-DEC-2022
 SECURKLOUD,0.083865814,SECUREKLOUD TECHNOLOGIES LIMITED,07-DEC-2022
 UNIVASTU,0.21217953,Univastu India Limited,06-DEC-2022
@@ -204,9 +204,9 @@ FIVESTAR,0.20777327,Five-Star Business Finance Limited,06-DEC-2022
 PSB,0.17519689,Punjab & Sind Bank,06-DEC-2022
 DTIL,0.17186458,Dhunseri Tea & Industries Limited,06-DEC-2022
 TIJARIA,0.1616162,Tijaria Polypipes Limited,06-DEC-2022
+SRTRANSFIN,0.13789353,Shriram Transport Finance Company Limited,06-DEC-2022
 SUMEETINDS,0.13761468,Sumeet Industries Limited,06-DEC-2022
 JAGSNPHARM,0.10861031,Jagsonpal Pharmaceuticals Limited,06-DEC-2022
-SRTRANSFIN,0.10558376,Shriram Transport Finance Company Limited,06-DEC-2022
 KOTHARIPET,0.102072164,Kothari Petrochemicals Limited,06-DEC-2022
 JSL,0.09977709,Jindal Stainless Limited,06-DEC-2022
 PNCINFRA,0.09496051,PNC Infratech Limited,06-DEC-2022
@@ -265,6 +265,7 @@ RAMKY,0.09131529,Ramky Infrastructure Limited,02-DEC-2022
 HCC,0.09117643,Hindustan Construction Company Limited,02-DEC-2022
 E2E,0.09,E2E Networks Limited,02-DEC-2022
 RICOAUTO,0.08625517,Rico Auto Industries Limited,02-DEC-2022
+SRTRANSFIN,0.08200386,Shriram Transport Finance Company Limited,02-DEC-2022
 SAKHTISUG,0.0817757,Sakthi Sugars Limited,02-DEC-2022
 MTARTECH,0.08112481,Mtar Technologies Limited,02-DEC-2022
 NELCAST,0.07954545,Nelcast Limited,02-DEC-2022
@@ -273,7 +274,6 @@ AIROLAM,0.078521974,Airo Lam limited,02-DEC-2022
 AAREYDRUGS,0.07661286,Aarey Drugs & Pharmaceuticals Limited,02-DEC-2022
 RAJSREESUG,0.07529414,Rajshree Sugars & Chemicals Limited,02-DEC-2022
 ACEINTEG,0.07516652,Ace Integrated Solutions Limited,02-DEC-2022
-KOTARISUG,0.072215445,Kothari Sugars And Chemicals Limited,02-DEC-2022
 PREMIERPOL,0.21787094,Premier Polyfilm Limited,01-DEC-2022
 WEIZMANIND,0.16136688,Weizmann Limited,01-DEC-2022
 SADBHAV,0.15000002,Sadbhav Engineering Limited,01-DEC-2022
@@ -315,7 +315,6 @@ DCM,0.091228105,DCM  Limited,30-NOV-2022
 RICOAUTO,0.09010349,Rico Auto Industries Limited,30-NOV-2022
 VBL,0.08579496,Varun Beverages Limited,30-NOV-2022
 GOCOLORS,0.08482695,Go Fashion (India) Limited,30-NOV-2022
-HUDCO,0.08443535,Housing & Urban Development Corporation Limited,30-NOV-2022
 MUKANDLTD,0.083132006,Mukand Limited,30-NOV-2022
 SAKAR,0.08059998,Sakar Healthcare Limited,30-NOV-2022
 MORARJEE,0.080188625,Morarjee Textiles Limited,30-NOV-2022
@@ -324,6 +323,7 @@ EIFFL,0.0783634,Euro India Fresh Foods Limited,30-NOV-2022
 LEMONTREE,0.077415906,Lemon Tree Hotels Limited,30-NOV-2022
 ESABINDIA,0.07731273,Esab India Limited,30-NOV-2022
 GRAUWEIL,0.07398086,Grauer & Weil (India) Limited,30-NOV-2022
+RKEC,0.07298471,RKEC Projects Limited,30-NOV-2022
 LFIC,0.18578428,Lakshmi Finance & Industrial Corporation Limited,29-NOV-2022
 BCLIND,0.16564885,Bcl Industries Limited,29-NOV-2022
 SBC,0.15384616,SBC Exports Limited,29-NOV-2022
@@ -349,7 +349,7 @@ UNITEDPOLY,0.07753621,United Polyfab Gujarat Limited,29-NOV-2022
 PRAENG,0.07575758,Prajay Engineers Syndicate Limited,29-NOV-2022
 KIOCL,0.074275814,KIOCL Limited,29-NOV-2022
 DHANBANK,0.072607286,Dhanlaxmi Bank Limited,29-NOV-2022
-IBULHSGFIN,0.22669281,Indiabulls Housing Finance Limited,28-NOV-2022
+IBULHSGFIN,0.30159363,Indiabulls Housing Finance Limited,28-NOV-2022
 STCINDIA,0.20517239,The State Trading Corporation of India Limited,28-NOV-2022
 DAMODARIND,0.19199997,Damodar Industries Limited,28-NOV-2022
 MSTCLTD,0.16827582,Mstc Limited,28-NOV-2022
@@ -374,11 +374,11 @@ TIPSFILMS,0.085966684,Tips Films Limited,28-NOV-2022
 ANDREWYU,0.080679476,Andrew Yule & Company Limited,28-NOV-2022
 AKSHAR,0.0767857,Akshar Spintex Limited,28-NOV-2022
 SILLYMONKS,0.07665501,Silly Monks Entertainment Limited,28-NOV-2022
+IBULHSGFIN,0.20098917,Indiabulls Housing Finance Limited,25-NOV-2022
 EXCEL,0.20000005,Excel Realty N Infra Limited,25-NOV-2022
 PEARLPOLY,0.17039113,Pearl Polymers Limited,25-NOV-2022
 DEVIT,0.1443342,Dev Information Technology Limited,25-NOV-2022
 PANAMAPET,0.1380952,Panama Petrochem Limited,25-NOV-2022
-IBULHSGFIN,0.111423895,Indiabulls Housing Finance Limited,25-NOV-2022
 ITDC,0.10835613,India Tourism Development Corporation Limited,25-NOV-2022
 DCMFINSERV,0.105263226,DCM Financial Services Limited,25-NOV-2022
 MASKINVEST,0.10483401,Mask Investments Limited,25-NOV-2022
@@ -431,9 +431,9 @@ VASCONEQ,0.13946122,Vascon Engineers Limited,23-NOV-2022
 RHIM,0.1305398,RHI MAGNESITA INDIA LIMITED,23-NOV-2022
 WELINV,0.12724636,Welspun Investments and Commercials Limited,23-NOV-2022
 MARSHALL,0.12252966,Marshall Machines Limited,23-NOV-2022
+UGROCAP,0.1180472,Ugro Capital Limited,23-NOV-2022
 RCF,0.11505273,Rashtriya Chemicals and Fertilizers Limited,23-NOV-2022
 SURANAT&P,0.113861345,Surana Telecom and Power Limited,23-NOV-2022
-UGROCAP,0.10552764,Ugro Capital Limited,23-NOV-2022
 DCI,0.104691744,Dc Infotech And Communication Limited,23-NOV-2022
 FACT,0.10228591,Fertilizers and Chemicals Travancore Limited,23-NOV-2022
 RVNL,0.100949064,Rail Vikas Nigam Limited,23-NOV-2022
@@ -461,6 +461,7 @@ LOTUSEYE,0.12721522,Lotus Eye Hospital and Institute Limited,22-NOV-2022
 MIRZAINT,0.12175788,Mirza International Limited,22-NOV-2022
 HITECH,0.1189307,Hi-Tech Pipes Limited,22-NOV-2022
 SBCL,0.1161333,Shivalik Bimetal Controls Limited,22-NOV-2022
+SRTRANSFIN,0.10681031,Shriram Transport Finance Company Limited,22-NOV-2022
 GANDHITUBE,0.098307386,Gandhi Special Tubes Limited,22-NOV-2022
 ISMTLTD,0.09354836,ISMT Limited,22-NOV-2022
 WEALTH,0.09169416,Wealth First Portfolio Managers Limited,22-NOV-2022
@@ -473,7 +474,6 @@ DNAMEDIA,0.082191765,Diligent Media Corporation Limited,22-NOV-2022
 DVL,0.07989143,Dhunseri Ventures Limited,22-NOV-2022
 ONELIFECAP,0.07905138,Onelife Capital Advisors Limited,22-NOV-2022
 UNITEDPOLY,0.078149885,United Polyfab Gujarat Limited,22-NOV-2022
-PRESSMN,0.07665504,Pressman Advertising Limited,22-NOV-2022
 KABRAEXTRU,0.1964824,Kabra Extrusion Technik Limited,21-NOV-2022
 ALPA,0.19014086,Alpa Laboratories Limited,21-NOV-2022
 UCOBANK,0.18412696,UCO Bank,21-NOV-2022
@@ -489,12 +489,12 @@ PSB,0.098445676,Punjab & Sind Bank,21-NOV-2022
 IZMO,0.09430376,IZMO Limited,21-NOV-2022
 CENTRALBK,0.091101676,Central Bank of India,21-NOV-2022
 IOB,0.09069771,Indian Overseas Bank,21-NOV-2022
-IFCI,0.09051717,IFCI Limited,21-NOV-2022
 ESCORTS,0.0855413,Escorts Kubota Limited,21-NOV-2022
 EASEMYTRIP,0.08113206,Easy Trip Planners Limited,21-NOV-2022
 MADRASFERT,0.07999997,Madras Fertilizers Limited,21-NOV-2022
 DISHTV,0.079268366,Dish TV India Limited,21-NOV-2022
 VAISHALI,0.07334211,Vaishali Pharma Limited,21-NOV-2022
+IFCI,0.07317613,IFCI Limited,21-NOV-2022
 MARKSANS,0.07230044,Marksans Pharma Limited,21-NOV-2022
 NAGREEKEXP,0.0706605,Nagreeka Exports Limited,21-NOV-2022
 FINCABLES,0.07065374,Finolex Cables Limited,21-NOV-2022
@@ -510,6 +510,7 @@ PCJEWELLER,0.09911738,PC Jeweller Limited,18-NOV-2022
 ALICON,0.097950794,Alicon Castalloy Limited,18-NOV-2022
 FOCUS,0.09108325,Focus Lighting and Fixtures Limited,18-NOV-2022
 HONDAPOWER,0.08772727,Honda India Power Products Limited,18-NOV-2022
+IIFL,0.08644908,IIFL Finance Limited,18-NOV-2022
 IZMO,0.086325966,IZMO Limited,18-NOV-2022
 KOKUYOCMLN,0.08517549,Kokuyo Camlin Limited,18-NOV-2022
 SHIVALIK,0.08511213,Shivalik Rasayan Limited,18-NOV-2022
@@ -523,7 +524,6 @@ ESABINDIA,0.07374721,Esab India Limited,18-NOV-2022
 LUMAXIND,0.07335037,Lumax Industries Limited,18-NOV-2022
 SUPREMEENG,0.07142859,Supreme Engineering Limited,18-NOV-2022
 GRAPHITE,0.07035105,Graphite India Limited,18-NOV-2022
-ROHLTD,0.06990478,Royal Orchid Hotels Limited,18-NOV-2022
 TIMKEN,0.18646362,Timken India Limited,17-NOV-2022
 ARCHIES,0.13725488,Archies Limited,17-NOV-2022
 ISFT,0.125,Intrasoft Technologies Limited,17-NOV-2022
@@ -551,12 +551,12 @@ EQUITAS,0.06059092,Equitas Holdings Limited,17-NOV-2022
 NECCLTD,0.060240965,North Eastern Carrying Corporation Limited,17-NOV-2022
 LOTUSEYE,0.13695648,Lotus Eye Hospital and Institute Limited,16-NOV-2022
 RAJSREESUG,0.13390316,Rajshree Sugars & Chemicals Limited,16-NOV-2022
-HUDCO,0.11570252,Housing & Urban Development Corporation Limited,16-NOV-2022
-IBULHSGFIN,0.115555555,Indiabulls Housing Finance Limited,16-NOV-2022
+HUDCO,0.13116713,Housing & Urban Development Corporation Limited,16-NOV-2022
 ZENITHEXPO,0.10207335,Zenith Exports Limited,16-NOV-2022
 HCC,0.09507045,Hindustan Construction Company Limited,16-NOV-2022
 GLOBAL,0.092221476,Global Education Limited,16-NOV-2022
 ATULAUTO,0.090470865,Atul Auto Limited,16-NOV-2022
+IRFC,0.09040955,Indian Railway Finance Corporation Limited,16-NOV-2022
 CAREERP,0.08826953,Career Point Limited,16-NOV-2022
 KIRLOSENG,0.087132685,Kirloskar Oil Engines Limited,16-NOV-2022
 TANTIACONS,0.08536587,Tantia Constructions Limited,16-NOV-2022
@@ -571,9 +571,9 @@ ISFT,0.07660549,Intrasoft Technologies Limited,16-NOV-2022
 FINPIPE,0.076130405,Finolex Industries Limited,16-NOV-2022
 MAWANASUG,0.07440671,Mawana Sugars Limited,16-NOV-2022
 POWERMECH,0.07398423,Power Mech Projects Limited,16-NOV-2022
+HDFC,0.07388277,Housing Development Finance Corporation Limited,16-NOV-2022
 DPABHUSHAN,0.07346247,D. P. Abhushan Limited,16-NOV-2022
 DISHTV,0.07333336,Dish TV India Limited,16-NOV-2022
-PONNIERODE,0.07288023,Ponni Sugars (Erode) Limited,16-NOV-2022
 RGL,0.18585615,Renaissance Global Limited,15-NOV-2022
 AKSHARCHEM,0.16786943,AksharChem India Limited,15-NOV-2022
 ALKALI,0.123629905,Alkali Metals Limited,15-NOV-2022
@@ -608,9 +608,9 @@ AXISCADES,0.10505717,AXISCADES Technologies Limited,14-NOV-2022
 FIEMIND,0.10386062,Fiem Industries Limited,14-NOV-2022
 DREDGECORP,0.10351856,Dredging Corporation of India Limited,14-NOV-2022
 JTEKTINDIA,0.101518,Jtekt India Limited,14-NOV-2022
-SRTRANSFIN,0.09066232,Shriram Transport Finance Company Limited,14-NOV-2022
 GLFL,0.08888891,Gujarat Lease Financing Limited,14-NOV-2022
 DCAL,0.08461542,Dishman Carbogen Amcis Limited,14-NOV-2022
+SRTRANSFIN,0.08419373,Shriram Transport Finance Company Limited,14-NOV-2022
 NEULANDLAB,0.08381775,Neuland Laboratories Limited,14-NOV-2022
 NATNLSTEEL,0.083333425,National Steel And Agro Industries Limited,14-NOV-2022
 HILTON,0.08333338,Hilton Metal Forging Limited,14-NOV-2022
@@ -619,17 +619,16 @@ RAYMOND,0.07228666,Raymond Limited,14-NOV-2022
 MANAPPURAM,0.07215072,Manappuram Finance Limited,14-NOV-2022
 STAR,0.07109591,Strides Pharma Science Limited,14-NOV-2022
 CINELINE,0.07028299,Cineline India Limited,14-NOV-2022
-POONAWALLA,0.07023411,Poonawalla Fincorp Limited,14-NOV-2022
 MAHAPEXLTD,0.07,Maha Rashtra Apex Corporation Limited,14-NOV-2022
 SKIPPER,0.06891594,Skipper Limited,14-NOV-2022
 CEREBRAINT,0.06805558,Cerebra Integrated Technologies Limited,14-NOV-2022
 HNDFDS,0.06660234,Hindustan Foods Limited,14-NOV-2022
+MMP,0.06556775,MMP Industries Limited,14-NOV-2022
 LUMAXIND,0.15025838,Lumax Industries Limited,11-NOV-2022
 GILLANDERS,0.14742196,Gillanders Arbuthnot & Company Limited,11-NOV-2022
 SWANENERGY,0.13078703,Swan Energy Limited,11-NOV-2022
 ROSSELLIND,0.1286417,Rossell India Limited,11-NOV-2022
 BANSWRAS,0.124582365,Banswara Syntex Limited,11-NOV-2022
-IRFC,0.1066833,Indian Railway Finance Corporation Limited,11-NOV-2022
 ZOMATO,0.10303035,Zomato Limited,11-NOV-2022
 HNDFDS,0.102958605,Hindustan Foods Limited,11-NOV-2022
 EROSMEDIA,0.102880664,Eros International Media Limited,11-NOV-2022
@@ -637,18 +636,19 @@ COCHINSHIP,0.100689694,Cochin Shipyard Limited,11-NOV-2022
 LOTUSEYE,0.09784177,Lotus Eye Hospital and Institute Limited,11-NOV-2022
 SAKSOFT,0.09771211,Saksoft Limited,11-NOV-2022
 GLFL,0.093023166,Gujarat Lease Financing Limited,11-NOV-2022
-IBULHSGFIN,0.091828555,Indiabulls Housing Finance Limited,11-NOV-2022
+HDFC,0.092440225,Housing Development Finance Corporation Limited,11-NOV-2022
+IRFC,0.087078616,Indian Railway Finance Corporation Limited,11-NOV-2022
 MELSTAR,0.083333254,Melstar Information Technologies Limited,11-NOV-2022
 NYKAA,0.08170707,FSN E-Commerce Ventures Limited,11-NOV-2022
 RPGLIFE,0.076310426,RPG Life Sciences Limited,11-NOV-2022
 DCXINDIA,0.07473872,DCX Systems Limited,11-NOV-2022
 ARVSMART,0.072360866,Arvind SmartSpaces Limited,11-NOV-2022
 SMSPHARMA,0.06785716,SMS Pharmaceuticals Limited,11-NOV-2022
+IBULHSGFIN,0.06616479,Indiabulls Housing Finance Limited,11-NOV-2022
 KENNAMET,0.0639364,Kennametal India Limited,11-NOV-2022
 ARROWGREEN,0.063247874,Arrow Greentech Limited,11-NOV-2022
 ALLCARGO,0.06304193,Allcargo Logistics Limited,11-NOV-2022
 BANG,0.06206203,Bang Overseas Limited,11-NOV-2022
-LUMAXTECH,0.060504176,Lumax Auto Technologies Limited,11-NOV-2022
 NEULANDLAB,0.19734982,Neuland Laboratories Limited,10-NOV-2022
 PAR,0.16775677,Par Drugs And Chemicals Limited,10-NOV-2022
 NYKAA,0.12724552,FSN E-Commerce Ventures Limited,10-NOV-2022
