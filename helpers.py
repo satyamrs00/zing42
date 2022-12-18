@@ -76,13 +76,11 @@ def getBhavcopyFiles():
             count += 1
         last_datetime = date_datetime
 
-def clearSecuritiesFile():
-    print('Clearing securities file...')
-    if os.path.exists('securities.csv'):
-        os.remove('securities.csv')
-
-def clearBhavcopyFiles():
-    print('Clearing bhavcopy files...')
+def clearFilesAll():
+    print('Clearing files...')
     for file in bhavcopy_names:
         os.remove(file)
-    bhavcopy_names.clear()
+    try:
+        os.remove('securities.csv')
+    except:
+        pass
